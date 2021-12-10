@@ -1,0 +1,7 @@
+# vim: filetype=bash
+
+export YEAR=2021
+export DAY=01
+export CONTEXT=${YEAR}/${DAY}
+export PART=${CONTEXT}/main.go
+export INPUT=${CONTEXT}/input
