@@ -31,7 +31,7 @@ func ReadFileInt(filename string) []int {
 	contentString := ReadFileString(filename)
 
 	for _, n := range contentString {
-		content = append(content, ToInt(n))
+		content = append(content, StringToInt(n))
 	}
 
 	return content

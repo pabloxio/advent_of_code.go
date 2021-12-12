@@ -12,7 +12,7 @@ import (
 func parseCommand(command string) (string, int) {
 	c := strings.Split(command, " ")
 
-	return c[0], util.ToInt(c[1])
+	return c[0], util.StringToInt(c[1])
 }
 
 func part1(commands []string) int {
