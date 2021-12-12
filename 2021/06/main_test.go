@@ -22,6 +22,7 @@ func TestSimulate(t *testing.T) {
 	for _, test := range tests {
 		file := util.ReadFileString(test.filename)
 		state := util.SliceStringToInt(strings.Split(file[0], ","))
+
 		got := simulate(state, test.days)
 		if got != test.want {
 			t.Errorf("got %d, want %d", got, test.want)
