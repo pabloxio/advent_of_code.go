@@ -1,3 +1,3 @@
-# My Advent of Code solutions with Golang
+# My Advent of Code solutions with Go
 
-Just pushing forward my Golang learning path solving [Advent of Code](https://adventofcode.com/) puzzles.
+Just pushing forward my Go learning path solving [Advent of Code](https://adventofcode.com/) puzzles.
